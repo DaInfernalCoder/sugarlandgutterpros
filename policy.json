@@ -1,0 +1,111 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": true,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.sugarlandgutterpros.shop",
+      "apexName": "sugarlandgutterpros.shop",
+      "redirect": "sugarlandgutterpros.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "sugarlandgutterpros.shop",
+      "apexName": "sugarlandgutterpros.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/apple-touch-icon.png",
+    "/areas/aliana/index.html",
+    "/areas/arcola/index.html",
+    "/areas/beasley/index.html",
+    "/areas/booth/index.html",
+    "/areas/cinco-ranch/index.html",
+    "/areas/first-colony/index.html",
+    "/areas/four-corners/index.html",
+    "/areas/fresno/index.html",
+    "/areas/fulshear/index.html",
+    "/areas/greatwood/index.html",
+    "/areas/houston/index.html",
+    "/areas/index.html",
+    "/areas/katy/index.html",
+    "/areas/meadows-place/index.html",
+    "/areas/mission-bend/index.html",
+    "/areas/missouri-city/index.html",
+    "/areas/needville/index.html",
+    "/areas/new-territory/index.html",
+    "/areas/orchard/index.html",
+    "/areas/pearland/index.html",
+    "/areas/pecan-grove/index.html",
+    "/areas/richmond/index.html",
+    "/areas/riverstone/index.html",
+    "/areas/rosenberg/index.html",
+    "/areas/sienna/index.html",
+    "/areas/simonton/index.html",
+    "/areas/stafford/index.html",
+    "/areas/telfair/index.html",
+    "/areas/thompsons/index.html",
+    "/assets/barlow-condensed.woff2",
+    "/assets/detail-1600.webp",
+    "/assets/detail-640.webp",
+    "/assets/detail-960.webp",
+    "/assets/detail.jpg",
+    "/assets/favicon-512.png",
+    "/assets/hero-1280.webp",
+    "/assets/hero-640.webp",
+    "/assets/hero-960.webp",
+    "/assets/hero.jpg",
+    "/assets/logo.svg",
+    "/assets/site.css",
+    "/assets/site.js",
+    "/assets/source-sans.woff2",
+    "/contact/index.html",
+    "/favicon-96.png",
+    "/favicon.ico",
+    "/index.html",
+    "/privacy/index.html",
+    "/robots.txt",
+    "/seo-manifest.json",
+    "/services/5-inch-gutters/index.html",
+    "/services/6-inch-gutters/index.html",
+    "/services/commercial-gutters/index.html",
+    "/services/downspouts/index.html",
+    "/services/gutter-cleaning/index.html",
+    "/services/gutter-guards/index.html",
+    "/services/gutter-installation/index.html",
+    "/services/gutter-repair/index.html",
+    "/services/gutter-replacement/index.html",
+    "/services/index.html",
+    "/services/residential-gutters/index.html",
+    "/services/seamless-gutters/index.html",
+    "/site-config.json",
+    "/sitemap.css",
+    "/sitemap.xml",
+    "/sitemap/index.html"
+  ]
+}
